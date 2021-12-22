@@ -12,6 +12,7 @@
 body{
    background: var(--preta);4
    font-family: 'Times New Roman', Times, serif;
+   color: white;
 }
 
 header .container{
@@ -39,3 +40,61 @@ header nav a{
 header nav a:hover{
     color: #fff;
 }
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/spider-man.jpg');
+    height: 480px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    width: 45%;
+}
+
+.loginho{
+    color: var(--vermelho);
+    padding-right: 7px;
+    font-size: 37px;
+}
+.titulo{
+    
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.filme-principal .layout{
+    display: flex;
+    align-items: center;
+}
+
+.botao{
+    background-color: rgba(27, 27, 27, 0.5);
+    border: none;
+    color:white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .5s ease all;
+    border-radius: 6px;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 11px;
+}
+
+.layout{
+    margin-top: 15%;
+}
+
