@@ -1,0 +1,15 @@
+@media  screen and ( max-width:1400px) {
+  .container nav{
+      display: flex;
+      flex-direction: column;
+  }  
+  .botao{
+      margin-top: 5px;
+      width: 150px;
+  }
+  .filme-principal .descricao{
+    margin-bottom: 40px;
+    width: 65%;
+}
+
+}
